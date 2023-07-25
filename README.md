@@ -6,6 +6,14 @@ A small project I made to
 All-in-all, as a Rust newbie who has never used PyO3 or any other way to leverage Rust functionality in Python, the 
 AI Assistant was extremely helpful and allowed me to complete this project in less than half a day.
 
+To run, use the following commands (will require some tweaking in a clean env sadly):
+```
+maturin build --release
+poetry install
+python pysrc/main.py
+```
+Also, the reference to the `.whl` file assumes MacOS using Apple Silicone, but that should be easy to change.
+
 As for the performance, it was as you might expect:
 
 
